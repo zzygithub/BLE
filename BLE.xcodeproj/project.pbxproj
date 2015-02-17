@@ -13,6 +13,7 @@
 		654B6EFA1A91C41300A48BCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654B6EF91A91C41300A48BCB /* Images.xcassets */; };
 		654B6EFD1A91C41300A48BCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B6EFB1A91C41300A48BCB /* LaunchScreen.xib */; };
 		654B6F091A91C41300A48BCB /* BLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654B6F081A91C41300A48BCB /* BLETests.swift */; };
+		654B6F131A91C47300A48BCB /* BTCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654B6F121A91C47300A48BCB /* BTCentral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		654B6F021A91C41300A48BCB /* BLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		654B6F071A91C41300A48BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654B6F081A91C41300A48BCB /* BLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETests.swift; sourceTree = "<group>"; };
+		654B6F121A91C47300A48BCB /* BTCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCentral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				654B6EF21A91C41300A48BCB /* AppDelegate.swift */,
 				654B6EF41A91C41300A48BCB /* ViewController.swift */,
+				654B6F121A91C47300A48BCB /* BTCentral.swift */,
 				654B6EF61A91C41300A48BCB /* Main.storyboard */,
 				654B6EF91A91C41300A48BCB /* Images.xcassets */,
 				654B6EFB1A91C41300A48BCB /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654B6EF51A91C41300A48BCB /* ViewController.swift in Sources */,
+				654B6F131A91C47300A48BCB /* BTCentral.swift in Sources */,
 				654B6EF31A91C41300A48BCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				654B6F0E1A91C41300A48BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		654B6F0F1A91C41300A48BCB /* Build configuration list for PBXNativeTarget "BLETests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				654B6F111A91C41300A48BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
