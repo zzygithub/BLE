@@ -13,7 +13,9 @@
 		654B6EFA1A91C41300A48BCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654B6EF91A91C41300A48BCB /* Images.xcassets */; };
 		654B6EFD1A91C41300A48BCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B6EFB1A91C41300A48BCB /* LaunchScreen.xib */; };
 		654B6F091A91C41300A48BCB /* BLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654B6F081A91C41300A48BCB /* BLETests.swift */; };
-		654B6F131A91C47300A48BCB /* BTCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654B6F121A91C47300A48BCB /* BTCentral.swift */; };
+		654B6F131A91C47300A48BCB /* BLECentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654B6F121A91C47300A48BCB /* BLECentral.swift */; };
+		658526301A94FB3D00876C46 /* BLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585262F1A94FB3D00876C46 /* BLEPeripheral.swift */; };
+		658526321A94FC4F00876C46 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658526311A94FC4F00876C46 /* BLE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,9 @@
 		654B6F021A91C41300A48BCB /* BLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		654B6F071A91C41300A48BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654B6F081A91C41300A48BCB /* BLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETests.swift; sourceTree = "<group>"; };
-		654B6F121A91C47300A48BCB /* BTCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCentral.swift; sourceTree = "<group>"; };
+		654B6F121A91C47300A48BCB /* BLECentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLECentral.swift; sourceTree = "<group>"; };
+		6585262F1A94FB3D00876C46 /* BLEPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEPeripheral.swift; sourceTree = "<group>"; };
+		658526311A94FC4F00876C46 /* BLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				654B6EF21A91C41300A48BCB /* AppDelegate.swift */,
 				654B6EF41A91C41300A48BCB /* ViewController.swift */,
-				654B6F121A91C47300A48BCB /* BTCentral.swift */,
+				658526311A94FC4F00876C46 /* BLE.swift */,
+				654B6F121A91C47300A48BCB /* BLECentral.swift */,
+				6585262F1A94FB3D00876C46 /* BLEPeripheral.swift */,
 				654B6EF61A91C41300A48BCB /* Main.storyboard */,
 				654B6EF91A91C41300A48BCB /* Images.xcassets */,
 				654B6EFB1A91C41300A48BCB /* LaunchScreen.xib */,
@@ -215,8 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658526321A94FC4F00876C46 /* BLE.swift in Sources */,
 				654B6EF51A91C41300A48BCB /* ViewController.swift in Sources */,
-				654B6F131A91C47300A48BCB /* BTCentral.swift in Sources */,
+				658526301A94FB3D00876C46 /* BLEPeripheral.swift in Sources */,
+				654B6F131A91C47300A48BCB /* BLECentral.swift in Sources */,
 				654B6EF31A91C41300A48BCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
