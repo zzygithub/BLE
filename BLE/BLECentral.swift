@@ -22,7 +22,12 @@ class BLECentral: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
         //1 将CBCenteralManager实例化
         centralManager = CBCentralManager(delegate: self, queue: nil)
     }
-    
+    class var sharedInstance: BLECentral {
+        struct Static {
+            static let instan: BLECentral = BLECentral()
+        }
+        return Static.instan
+    }
     func startScan() {
         centralManager.scanForPeripheralsWithServices([CBUUID(string: TRANSFER_SERVICE_UUID)], options: [CBCentralManagerScanOptionAllowDuplicatesKey: true])
     }
