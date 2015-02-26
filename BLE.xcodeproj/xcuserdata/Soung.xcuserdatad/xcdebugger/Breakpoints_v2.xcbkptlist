@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE/BLEConnection.swift"
+            timestampString = "446652429.852319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(peripheral:name:delegate:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE.BLEConnection.(init (BLE.BLEConnection.Type) -&gt; (peripheral : ObjectiveC.CBPeripheral, name : Swift.Optional&lt;Swift.String&gt;, delegate : Swift.Optional&lt;BLE.BLEConnectionDelegate&gt;) -&gt; BLE.BLEConnection).(default argument 1)"
+                  moduleName = "BLE"
+                  urlString = "file:///Users/Soung/Google%20%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98/BLE/BLE/BLEConnection.swift"
+                  timestampString = "446652541.768723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BLE.BLEConnection.(init (BLE.BLEConnection.Type) -&gt; (peripheral : ObjectiveC.CBPeripheral, name : Swift.Optional&lt;Swift.String&gt;, delegate : Swift.Optional&lt;BLE.BLEConnectionDelegate&gt;) -&gt; BLE.BLEConnection).(default argument 2)"
+                  moduleName = "BLE"
+                  urlString = "file:///Users/Soung/Google%20%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98/BLE/BLE/BLEConnection.swift"
+                  timestampString = "446652541.769057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE/ViewController.swift"
+            timestampString = "446651861.725285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "didConnectConnection(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BLE/BLEConnection.swift"
+            timestampString = "446652429.852319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "discoverCharacteristics(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

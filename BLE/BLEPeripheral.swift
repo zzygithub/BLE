@@ -21,20 +21,9 @@ class BLEPeripheral: NSObject, CBPeripheralManagerDelegate {
         peripheralManager = CBPeripheralManager(delegate: self, queue: nil)
     }
     func startAdvertisingToPeripheral() {
-        if !peripheralManager.isAdvertising {
-            peripheralManager.startAdvertising([CBAdvertisementDataServiceUUIDsKey: [CBUUID(string: TRANSFER_SERVICE_UUID)]])
-        }
     }
     //2 creat & add service
     func peripheralManagerDidUpdateState(peripheral: CBPeripheralManager!) {
-        
-        if peripheral.state != CBPeripheralManagerState.PoweredOn {
-            return
-        }
-        transferCharacteristic = CBMutableCharacteristic(type: CBUUID(string: TRANSFER_CHARACTERISTIC_UUID), properties: CBCharacteristicProperties.Notify, value: nil, permissions: CBAttributePermissions.Readable)
-        var transferService = CBMutableService(type: CBUUID(string: TRANSFER_SERVICE_UUID), primary: true)
-        transferService.characteristics = [transferCharacteristic]
-        peripheralManager.addService(transferService)
     }
     //3
     func peripheralManager(peripheral: CBPeripheralManager!, central: CBCentral!, didSubscribeToCharacteristic characteristic: CBCharacteristic!) {
